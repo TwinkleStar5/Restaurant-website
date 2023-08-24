@@ -1,0 +1,247 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap"); */
+
+header {
+  height: 200vh;
+}
+
+.container {
+  /* hide fixed overflow contents */
+  clip: rect(0, auto, auto, 0);
+
+  /* does not work if overflow = visible */
+  overflow: hidden;
+
+  /* only works with absolute positioning */
+  /* position: absolute; */
+
+  /* Make sure containers are full-width and height */
+  height: 100vh;
+  left: 0;
+  width: 100%;
+
+  /* safari hack */
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  /* margin: 0; */
+}
+
+/* .container_solid {
+  background: red;
+
+  /* position this container at the top of its parent element */
+/* top: 0; */
+*/
+
+
+/* MISSION */
+.title_wrapper1 {
+  position: fixed;
+  display: block;
+  margin: auto;
+  width: 100%;
+  /* center the text wrapper vertically */
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.title_wrapper1 h1 {
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Calistoga", cursive;
+  font-weight: 900;
+}
+
+.container_solid1 {
+  /* background: #f3cf98; */
+  background-color: #8E9FD1;
+ 
+}
+.container_solid1 .title_wrapper1 h1 {
+  /* the text background */
+  background: url(../img/value1.jpg);
+  background-size: 100vw auto;
+  background-position: center;
+
+  /* clip the text is possible */
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* fallback text color */
+  color: black;
+}
+.container_image3 {
+  /* Grab a free image from unsplash */
+  background: url(../img/value1.jpg);
+  background-size: 100vw auto;
+  background-position: center;
+  background-attachment: fixed;
+  /* position the second container below the first container */
+  top: 100vh;
+  margin: 0;
+}
+
+.container_image1 .title_wrapper1 h1 {
+  color: white;
+}
+
+/* END OF MISSION */
+
+/* VISION */
+
+.title_wrapper2 {
+  position: fixed;
+  display: block;
+  margin: auto;
+  width: 100%;
+  /* center the text wrapper vertically */
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.title_wrapper2 h1 {
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Calistoga", cursive;
+  font-weight: 900;
+}
+
+.container_solid2 {
+  background: #6ea8e6;
+}
+
+.container_solid2 .title_wrapper2 h1 {
+  /* the text background */
+  background: url(../img/vision3.jpg);
+  background-size: 100vw auto;
+  background-position: center;
+
+  /* clip the text is possible */
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* fallback text color */
+  color: black;
+}
+.container_image2 {
+  /* Grab a free image from unsplash */
+  background: url(../img/vision3.jpg);
+  background-size: 100vw auto;
+  background-position: center;
+  background-attachment: fixed;
+  /* position the second container below the first container */
+  top: 100vh;
+  margin: 0;
+}
+
+.container_image2 .title_wrapper2 h1 {
+  color: white;
+}
+/* END OF VISION */
+
+/* VALUE */
+
+.title_wrapper3 {
+  position: fixed;
+  display: block;
+  margin: auto;
+  width: 100%;
+  /* center the text wrapper vertically */
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.title_wrapper3 h1 {
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Calistoga", cursive;
+  font-weight: 900;
+}
+
+.container_solid3 {
+  /* background: #f3cf98; */
+  background-color: #8E9FD1;
+ 
+}
+.container_solid3 .title_wrapper3 h1 {
+  /* the text background */
+  background: url(../img/value1.jpg);
+  background-size: 100vw auto;
+  background-position: center;
+
+  /* clip the text is possible */
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* fallback text color */
+  color: black;
+}
+.container_image3 {
+  /* Grab a free image from unsplash */
+  background: url(../img/value1.jpg);
+  background-size: 100vw auto;
+  background-position: center;
+  background-attachment: fixed;
+  /* position the second container below the first container */
+  top: 100vh;
+  margin: 0;
+}
+
+.container_image3 .title_wrapper3 h1 {
+  color: white;
+}
+/* END OF VALUE */
+
+section {
+  /* min-height: 100vh; */
+  /* padding: 2em; */
+  /* margin: auto; */
+  /* max-width: 800px; */
+}
+
+/* section h2 {
+  font-family: "Fraunces", serif;
+} */
+
+section p {
+  font-family: "Space Mono", monospace;
+  font-size: 35px;
+ color: #ffffff;}
+
+.one {
+  background-color: #ffcb5b;
+  padding-left: 25px;
+ 
+}
+
+.one p {
+  font-family: "Space Mono", monospace;
+  font-size: 35px;
+ 
+}
+.two {
+  background-color: #6ea8e6;
+  position: relative;
+}
+
+.three {
+  background-color: #8E9FD1;
+  position: relative;
+}
+
